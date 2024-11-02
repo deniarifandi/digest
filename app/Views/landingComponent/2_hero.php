@@ -5,11 +5,11 @@
       <div class="container">
         <div class="row gy-4 d-flex justify-content-between">
           <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
-            <h2 data-aos="fade-up">Digital English Instructional Material for English Instructional Material</h2>
-            <p data-aos="fade-up" data-aos-delay="100">Facere distinctio molestiae nisi fugit tenetur repellat non praesentium nesciunt optio quis sit odio nemo quisquam. eius quos reiciendis eum vel eum voluptatem eum maiores eaque id optio ullam occaecati odio est possimus vel reprehenderit</p>
+            <h2 data-aos="fade-up">Empowering EMI Educators with Best Practice Material</h2>
+            <p data-aos="fade-up" data-aos-delay="100">Digital English Instructional Material (DIGEST) is a material packaged in a digital video displayed through an application containing pedagogical strategies and best practices for teaching EMI classes.</p>
 
             <form action="#" class="form-search d-flex align-items-stretch mb-3" data-aos="fade-up" data-aos-delay="200">
-              <input type="text" class="form-control" placeholder="Your ZIP code or City. e.g. New York">
+              <input type="text" class="form-control" placeholder="Search Material">
               <button type="submit" class="btn btn-primary">Search</button>
             </form>
 
@@ -17,29 +17,29 @@
 
               <div class="col-lg-3 col-6">
                 <div class="stats-item text-center w-100 h-100">
-                  <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="0" class="purecounter">232</span>
-                  <p>Clients</p>
+                  <span data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="2" class="purecounter">4</span>
+                  <p>Subject</p>
                 </div>
               </div><!-- End Stats Item -->
 
               <div class="col-lg-3 col-6">
                 <div class="stats-item text-center w-100 h-100">
-                  <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="0" class="purecounter">521</span>
-                  <p>Projects</p>
+                  <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="2" class="purecounter">10</span>
+                  <p>Programs</p>
                 </div>
               </div><!-- End Stats Item -->
 
               <div class="col-lg-3 col-6">
                 <div class="stats-item text-center w-100 h-100">
-                  <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="0" class="purecounter">1453</span>
-                  <p>Support</p>
+                  <span data-purecounter-start="0" data-purecounter-end="121" data-purecounter-duration="2" class="purecounter">121</span>
+                  <p>Courses</p>
                 </div>
               </div><!-- End Stats Item -->
 
               <div class="col-lg-3 col-6">
                 <div class="stats-item text-center w-100 h-100">
-                  <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="0" class="purecounter">32</span>
-                  <p>Workers</p>
+                  <span data-purecounter-start="0" data-purecounter-end="300" data-purecounter-duration="2" class="purecounter">300+</span>
+                  <p>Users</p>
                 </div>
               </div><!-- End Stats Item -->
 
