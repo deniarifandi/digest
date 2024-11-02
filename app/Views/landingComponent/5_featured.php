@@ -2,9 +2,9 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <span>Our Services<br></span>
-        <h2>Our ServiceS</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <span>Our Resources<br></span>
+        <h2>Our Resources</h2>
+        <p>We are pleased to present you with a comprehensive list of our available resources.</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -14,62 +14,34 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="card">
               <div class="card-img">
-                <img src="<?php echo base_url();?>assets/img/service-1.jpg" alt="" class="img-fluid">
+                <img src="<?php echo base_url();?>assets/img/subject.png" alt="" class="img-fluid">
               </div>
-              <h3>Storage</h3>
-              <p>Cumque eos in qui numquam. Aut aspernatur perferendis sed atque quia voluptas quisquam repellendus temporibus itaqueofficiis odit</p>
+              <h3>Subjects</h3>
+              <p>Each subject encompasses a distinct set of content, strategies, and best practices aimed at enhancing the teaching and learning experience for EMI class instructors.</p>
             </div>
           </div><!-- End Card Item -->
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="card">
               <div class="card-img">
-                <img src="<?php echo base_url();?>assets/img/service-2.jpg" alt="" class="img-fluid">
+                <img src="<?php echo base_url();?>assets/img/pedagogy2.png" alt="" class="img-fluid">
               </div>
-              <h3><a href="#" class="stretched-link">Logistics</a></h3>
-              <p>Asperiores provident dolor accusamus pariatur dolore nam id audantium ut et iure incidunt molestiae dolor ipsam ducimus occaecati nisi</p>
+              <h3><a href="#" class="stretched-link">Pedagogy</a></h3>
+              <p>This is the foundation element that guides the development and delivery of instructional content for English Instructional Material (EMI).</p>
             </div>
           </div><!-- End Card Item -->
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="card">
               <div class="card-img">
-                <img src="<?php echo base_url();?>assets/img/service-3.jpg" alt="" class="img-fluid">
+                <img src="<?php echo base_url();?>assets/img/microcredential.png" alt="" class="img-fluid">
               </div>
-              <h3><a href="#" class="stretched-link">Cargo</a></h3>
-              <p>Dicta quam similique quia architecto eos nisi aut ratione aut ipsum reiciendis sit doloremque oluptatem aut et molestiae ut et nihil</p>
+              <h3><a href="#" class="stretched-link">Microcredentials</a></h3>
+              <p>Microcredentials Serve as a valuable tool for educators looking to enhance their expertise in teaching English</p>
             </div>
           </div><!-- End Card Item -->
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="card">
-              <div class="card-img">
-                <img src="<?php echo base_url();?>assets/img/service-4.jpg" alt="" class="img-fluid">
-              </div>
-              <h3><a href="#" class="stretched-link">Trucking</a></h3>
-              <p>Dicta quam similique quia architecto eos nisi aut ratione aut ipsum reiciendis sit doloremque oluptatem aut et molestiae ut et nihil</p>
-            </div>
-          </div><!-- End Card Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-            <div class="card">
-              <div class="card-img">
-                <img src="<?php echo base_url();?>assets/img/service-5.jpg" alt="" class="img-fluid">
-              </div>
-              <h3>Packaging</h3>
-              <p>Illo consequuntur quisquam delectus praesentium modi dignissimos facere vel cum onsequuntur maiores beatae consequatur magni voluptates</p>
-            </div>
-          </div><!-- End Card Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-            <div class="card">
-              <div class="card-img">
-                <img src="<?php echo base_url();?>assets/img/service-6.jpg" alt="" class="img-fluid">
-              </div>
-              <h3><a href="#" class="stretched-link">Warehousing</a></h3>
-              <p>Quas assumenda non occaecati molestiae. In aut earum sed natus eatae in vero. Ab modi quisquam aut nostrum unde et qui est non quo nulla</p>
-            </div>
-          </div><!-- End Card Item -->
+          
 
         </div>
 

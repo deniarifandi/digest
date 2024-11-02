@@ -4,10 +4,9 @@
 
       <div class="container">
         <div class="row gy-4 d-flex justify-content-center">
-          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column align-items-center justify-content-center">
-            <br>
-            <br><br>
-            <h2 data-aos="fade-up">Empowering EMI Educators with Best Practice Material</h2>
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
+            
+            <h2 data-aos="fade-up">Empowering <br>EMI Educators with Best Practice Material</h2>
             <p data-aos="fade-up" data-aos-delay="100">Digital English Instructional Material (DIGEST) is a material packaged in a digital video displayed through an application containing pedagogical strategies and best practices for teaching EMI classes.</p>
 
             <form action="#" class="form-search d-flex align-items-stretch mb-3" data-aos="fade-up" data-aos-delay="200">
@@ -40,7 +39,7 @@
 
               <div class="col-lg-3 col-6">
                 <div class="stats-item text-center w-100 h-100">
-                  <span data-purecounter-start="0" data-purecounter-end="300" data-purecounter-duration="2" class="purecounter">300+</span>
+                  <span data-purecounter-start="0" data-purecounter-end="300" data-purecounter-duration="2" class="purecounter">300</span>
                   <p>Users</p>
                 </div>
               </div><!-- End Stats Item -->

@@ -12,9 +12,9 @@
           <div class="col-lg-6 content order-last  order-lg-first" data-aos="fade-up" data-aos-delay="100">
             <h3>About Us</h3>
             <p>
-              Dolor iure expedita id fuga asperiores qui sunt consequatur minima. Quidem voluptas deleniti. Sit quia molestiae quia quas qui magnam itaque veritatis dolores. Corrupti totam ut eius incidunt reiciendis veritatis asperiores placeat.
+              Digital English Instructional Material (DIGEST) is a material packaged in a digital video displayed through an application containing pedagogical strategies and best practices for teaching EMI classes. This digital material can be accessed for free/no charge on Google Playstore for all lecturers, especially EMI class instructors. Through this digital video, lecturers will get material related to pedagogical strategies and best practices that can be applied in teaching EMI classes and examples of learning practices that can be used as practical learning models in EMI classes.
             </p>
-            <ul>
+            <!-- <ul>
               <li>
                 <i class="bi bi-diagram-3"></i>
                 <div>
@@ -36,7 +36,7 @@
                   <p>Et velit et eos maiores est tempora et quos dolorem autem tempora incidunt maxime veniam</p>
                 </div>
               </li>
-            </ul>
+            </ul> -->
           </div>
 
         </div>
