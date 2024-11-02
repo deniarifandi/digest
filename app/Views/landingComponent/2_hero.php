@@ -1,10 +1,12 @@
- <section id="hero" class="hero section dark-background">
+ <section id="hero" class="hero section dark-background" style="height: 100vh;">
 
-      <img src="<?php echo base_url();?>assets/img/world-dotted-map.png" alt="" class="hero-bg" data-aos="fade-in">
+      <img src="<?php echo base_url();?>assets/img/bg1.jpg" alt="" class="hero-bg" data-aos="fade-in">
 
       <div class="container">
-        <div class="row gy-4 d-flex justify-content-between">
-          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
+        <div class="row gy-4 d-flex justify-content-center">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column align-items-center justify-content-center">
+            <br>
+            <br><br>
             <h2 data-aos="fade-up">Empowering EMI Educators with Best Practice Material</h2>
             <p data-aos="fade-up" data-aos-delay="100">Digital English Instructional Material (DIGEST) is a material packaged in a digital video displayed through an application containing pedagogical strategies and best practices for teaching EMI classes.</p>
 
@@ -48,7 +50,7 @@
           </div>
 
           <div class="col-lg-5 order-1 order-lg-2 hero-img" data-aos="zoom-out">
-            <img src="<?php echo base_url();?>assets/img/hero-img.svg" class="img-fluid mb-3 mb-lg-0" alt="">
+            <img src="<?php echo base_url();?>assets/img/heroicon.png" class="img-fluid mb-3 mb-lg-0" alt="">
           </div>
 
         </div>

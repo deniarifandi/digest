@@ -8,8 +8,8 @@
             <div class="icon flex-shrink-0"><i class="fa-solid fa-cart-flatbed"></i></div>
             <div>
               <h4 class="title">Learning Anywhere</h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-              <a href="#" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
+              <p class="description">With DIGEST, instructors can access instructional materials and teaching strategies at their convenience, allowing them to learn and prepare whenever it best fits their.</p>
+              <!-- <a href="#" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a> -->
             </div>
           </div>
           <!-- End Service Item -->
@@ -18,8 +18,8 @@
             <div class="icon flex-shrink-0"><i class="fa-solid fa-truck"></i></div>
             <div>
               <h4 class="title">Learning Anytime</h4>
-              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
-              <a href="#" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
+              <p class="description">DIGEST offers flexibility for instructors to learn from any location, making it easy to enhance their teaching practices whether they're at home, on campus, or on the go</p>
+              <!-- <a href="#" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a> -->
             </div>
           </div><!-- End Service Item -->
 
@@ -27,8 +27,8 @@
             <div class="icon flex-shrink-0"><i class="fa-solid fa-truck-ramp-box"></i></div>
             <div>
               <h4 class="title">Learning in Anydevice</h4>
-              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-              <a href="#" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
+              <p class="description">DIGEST is compatible across various devices, from smartphones to tablets and computers, ensuring that instructors can engage with the material on their preferred device, wherever they have access.</p>
+              <!-- <a href="#" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a> -->
             </div>
           </div><!-- End Service Item -->
 
