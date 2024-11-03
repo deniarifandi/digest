@@ -8,4 +8,14 @@ class Home extends BaseController
     {
         return view('index.php');
     }
+
+    public function material(){
+        return view('material.php');
+    }
+
+    public function lesson_plan(){
+        return view('lessonplan.php');
+    }
+
+
 }

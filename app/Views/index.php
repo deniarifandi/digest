@@ -19,23 +19,23 @@
     <!-- /featured Section -->
 
     <!-- Call To Action Section -->
-    <?php include('landingComponent/6_call.php');?>
+    <?php include('landingComponent/52_category.php');?>
     <!-- /Call To Action Section -->
 
     <!-- Features Section -->
-    <?php include('landingComponent/7_feature.php');?>
+    <?php // include('landingComponent/7_feature.php');?>
     <!-- /Features Section -->
 
     <!-- Pricing Section -->
-    <?php include('landingComponent/8_pricing.php');?>
+    <?php // include('landingComponent/8_pricing.php');?>
     <!-- /Pricing Section -->
 
     <!-- Testimonials Section -->
-    <?php include('landingComponent/9_testimonial.php');?>
+    <?php // include('landingComponent/9_testimonial.php');?>
     <!-- /Testimonials Section -->
 
     <!-- Faq Section -->
-    <?php include('landingComponent/10_faq.php');?>
+    <?php // include('landingComponent/10_faq.php');?>
     <!-- /Faq Section -->
 
   </main>
