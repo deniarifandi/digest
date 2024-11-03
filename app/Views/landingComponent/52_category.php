@@ -26,7 +26,7 @@
               <div class="card-img">
                 <img src="<?php echo base_url();?>assets/img/economy.png" alt="" class="img-fluid">
               </div>
-              <h3><a href="<?php echo base_url();?>public/material" class="stretched-link">Economy</a></h3>
+              <h3><a href="<?php echo base_url();?>material" class="stretched-link">Economy</a></h3>
               <p>Economics is the study of how individuals, businesses, and societies allocate resources. It explores production, consumption, and distribution, analyzing how choices impact wealth, markets, and overall economic well-being.</p>
             </div>
           </div><!-- End Card Item -->

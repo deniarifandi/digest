@@ -42,7 +42,7 @@
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
-      <a href="<?php echo base_url(); ?>/public" class="logo d-flex align-items-center me-auto">
+      <a href="<?php echo base_url(); ?>/" class="logo d-flex align-items-center me-auto">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
         <h1 class="sitename">DIGEST for EMI</h1>
@@ -50,10 +50,10 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="<?php echo base_url(); ?>public/#hero" class="active">Home<br></a></li>
-          <li><a href="<?php echo base_url(); ?>public/#about">About</a></li>
-          <li><a href="<?php echo base_url(); ?>public/#resources">Resources</a></li>
-          <li><a href="<?php echo base_url(); ?>public/#category">Category</a></li>
+          <li><a href="<?php echo base_url(); ?>#hero" class="active">Home<br></a></li>
+          <li><a href="<?php echo base_url(); ?>#about">About</a></li>
+          <li><a href="<?php echo base_url(); ?>#resources">Resources</a></li>
+          <li><a href="<?php echo base_url(); ?>#category">Category</a></li>
          <!--  <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="#">Dropdown 1</a></li>
