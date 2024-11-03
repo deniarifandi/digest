@@ -50,10 +50,10 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="<?php echo base_url(); ?>/public" class="active">Home<br></a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#resources">Resources</a></li>
-          <li><a href="#category">Category</a></li>
+          <li><a href="<?php echo base_url(); ?>public/#hero" class="active">Home<br></a></li>
+          <li><a href="<?php echo base_url(); ?>public/#about">About</a></li>
+          <li><a href="<?php echo base_url(); ?>public/#resources">Resources</a></li>
+          <li><a href="<?php echo base_url(); ?>public/#category">Category</a></li>
          <!--  <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="#">Dropdown 1</a></li>

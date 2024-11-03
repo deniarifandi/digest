@@ -16,7 +16,7 @@
               <div class="card-img">
                 <img src="<?php echo base_url();?>assets/img/economylessonplan.png" alt="" class="img-fluid">
               </div>
-              <h3><a href="<?php echo base_url();?>public/lesson_plan" class="stretched-link">Lesson Plan</a></h3>
+              <h3><a href="https://drive.google.com/drive/folders/1jQ6W0OjKSsTmJYmvpsgAAGQN5ax2L4bN?usp=sharing" class="stretched-link" target="_blank">Lesson Plan</a></h3>
               <p>An economics lesson plan outlines activities and goals for teaching key concepts, like supply and demand, resources, markets, and financial decision-making. It includes objectives, materials, and step-by-step instructions to help students understand economic principles and apply them to real-world situations. </p>
             </div>
           </div><!-- End Card Item -->
