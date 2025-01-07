@@ -2,7 +2,7 @@
     <?php include('landingComponent/1_header.php');?>
   <main class="main">
 
-    <section id="hero" class="hero section dark-background" style="">
+   <section id="hero" class="hero section dark-background" style="">
 
       <img src="<?php echo base_url();?>assets/img/economybg.jpg" alt="" class="hero-bg" data-aos="fade-in">
 
@@ -25,13 +25,11 @@
 
    <section id="category" class="services section">
 
-         
-
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <span><?= $subjects[0]->subject_name ?> Lesson Plan<br></span>
-        <h2><?= $subjects[0]->subject_name ?>  Lesson Plan</h2>
-        <p>Check out our wide range of Lesson Plan to help with your studies. Below are materials for our <?= $subjects[0]->subject_name ?>  subject.</p>
+        <span><?= $subjects[0]->subject_name ?> Case Study<br></span>
+        <h2><?= $subjects[0]->subject_name ?>  Case Study</h2>
+        <p>Check out our wide range of Case Study to help with your studies. Below are materials for our <?= $subjects[0]->subject_name ?>  subject.</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -42,21 +40,21 @@
             <thead>
                <tr>
                   <th>No</th>
-                  <th>Lesson Plan Desc</th>
+                  <th>Cases Desc</th>
                   <th>Subject</th>
                   <th>Download</th>
                </tr>
             </thead>
             <tbody>
 
-               <?php foreach ($lesson_plans as $lesson_plan): ?>
+               <?php foreach ($cases as $case): ?>
                   <tr>
-                     <td><?= $lesson_plan->lessonPlan_id ?></th>
-                     <td><?= $lesson_plan->description ?></th>
-                     <td><?= $lesson_plan->subject_name ?></th>
+                     <td><?= $case->case_id ?></th>
+                     <td><?= $case->description ?></th>
+                     <td><?= $case->subject_name ?></th>
                      <td>
-                        <?php if ($lesson_plan->file != null): ?>
-                           <a href="<?php echo "http://localhost/mms/public/lesson-plans/view/".$lesson_plan->subject_id."/".$lesson_plan->file ?>" alt="" class="img-fluid">Download
+                        <?php if ($case->file != null): ?>
+                           <a href="<?php echo "http://localhost/mms/public/lesson-plans/view/".$case->subject_id."/".$case->file ?>" alt="" class="img-fluid">Download
                            </a>   
                         <?php else: ?>
                            No File

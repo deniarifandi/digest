@@ -1,5 +1,6 @@
 <section id="category" class="services section">
 
+      
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <span><?= $subjects[0]->subject_name ?> Material<br></span>
@@ -26,7 +27,7 @@
               <div class="card-img">
                 <img src="<?php echo base_url();?>assets/img/economycasestudy.png" alt="" class="img-fluid">
               </div>
-              <h3><a href="https://drive.google.com/drive/folders/1yQfQ_zb2sqSQhpf39FFLeqgHBmrHu-sR?usp=sharing" target="_blank" class="stretched-link">Case Study</a></h3>
+              <h3><a href="<?= base_url() ?>case_study/<?= $subjects[0]->subject_id ?>" class="stretched-link" class="stretched-link">cases</a></h3>
               <p>A case study is a detailed examination of a specific instance or situation in a real-world context. It involves gathering information through methods like interviews and observations to explore complex issues. Commonly used in fields like business and education, case studies illustrate theoretical concepts and provide insights for decision-making.</p>
             </div>
           </div><!-- End Card Item -->
@@ -36,7 +37,7 @@
               <div class="card-img">
                 <img src="<?php echo base_url();?>assets/img/economy.png" alt="" class="img-fluid">
               </div>
-              <h3><a href="https://drive.google.com/drive/folders/1enCG4D4lTahMsGndzlvRVsxAxyHfZOY1?usp=sharing" class="stretched-link" target="_blank">Presentation</a></h3>
+              <h3><a href="<?= base_url() ?>presentation/<?= $subjects[0]->subject_id ?>" class="stretched-link" class="stretched-link">Presentations</a></h3>
               <p>visual tool used to communicate key concepts, data, and analyses related to economics. It typically includes slides covering topics such as supply and demand, market structures, economic indicators, and fiscal policies. </p>
             </div>
           </div><!-- End Card Item -->
