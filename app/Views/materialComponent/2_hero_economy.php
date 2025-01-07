@@ -6,13 +6,13 @@
         <div class="row gy-4 d-flex justify-content-center">
           <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
             
-            <h2 data-aos="fade-up">Economy</h2>
-            <p data-aos="fade-up" data-aos-delay="100">Economics is the study of how individuals, businesses, and societies allocate resources. It explores production, consumption, and distribution, analyzing how choices impact wealth, markets, and overall economic well-being.</p>
+            <h2 data-aos="fade-up"><?= $subjects[0]->subject_name ?></h2>
+            <p data-aos="fade-up" data-aos-delay="100"><?= $subjects[0]->description ?></p>
 
-            <form action="https://drive.google.com/drive/folders/1AXlHT-Ff6cPqtU0SPkspsP2J8ER1qZGD?usp=sharing" class="form-search d-flex align-items-stretch mb-3" data-aos="fade-up" data-aos-delay="200">
-              <input type="text" class="form-control" placeholder="Search Economy Material">
+           <!--  <form action="https://drive.google.com/drive/folders/1AXlHT-Ff6cPqtU0SPkspsP2J8ER1qZGD?usp=sharing" class="form-search d-flex align-items-stretch mb-3" data-aos="fade-up" data-aos-delay="200">
+              <input type="text" class="form-control" placeholder="Search <?= $subjects[0]->subject_name ?> Material">
               <button type="submit" class="btn btn-primary">Search</button>
-            </form>
+            </form> -->
 
           
 

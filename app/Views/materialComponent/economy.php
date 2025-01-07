@@ -2,9 +2,9 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <span>Economy Material<br></span>
-        <h2>Economy Material</h2>
-        <p>Check out our wide range of resources to help with your studies. Below are materials for our Economics subject.</p>
+        <span><?= $subjects[0]->subject_name ?> Material<br></span>
+        <h2><?= $subjects[0]->subject_name ?>  Material</h2>
+        <p>Check out our wide range of resources to help with your studies. Below are materials for our <?= $subjects[0]->subject_name ?> subject.</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -16,8 +16,8 @@
               <div class="card-img">
                 <img src="<?php echo base_url();?>assets/img/economylessonplan.png" alt="" class="img-fluid">
               </div>
-              <h3><a href="https://drive.google.com/drive/folders/1jQ6W0OjKSsTmJYmvpsgAAGQN5ax2L4bN?usp=sharing" class="stretched-link" target="_blank" class="stretched-link">Lesson Plan</a></h3>
-              <p>An economics lesson plan outlines activities and goals for teaching key concepts, like supply and demand, resources, markets, and financial decision-making. It includes objectives, materials, and step-by-step instructions to help students understand economic principles and apply them to real-world situations. </p>
+              <h3><a href="<?= base_url() ?>lesson_plan/<?= $subjects[0]->subject_id ?>" class="stretched-link" class="stretched-link">Lesson Plan</a></h3>
+              <p>Lesson plan outlines activities and goals for teaching key concepts. It includes objectives, materials, and step-by-step instructions to help students understand objective principles and apply them to real-world situations. </p>
             </div>
           </div><!-- End Card Item -->
 
@@ -34,7 +34,7 @@
             <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="card">
               <div class="card-img">
-                <img src="<?php echo base_url();?>assets/img/presentation2.png" alt="" class="img-fluid">
+                <img src="<?php echo base_url();?>assets/img/economy.png" alt="" class="img-fluid">
               </div>
               <h3><a href="https://drive.google.com/drive/folders/1enCG4D4lTahMsGndzlvRVsxAxyHfZOY1?usp=sharing" class="stretched-link" target="_blank">Presentation</a></h3>
               <p>visual tool used to communicate key concepts, data, and analyses related to economics. It typically includes slides covering topics such as supply and demand, market structures, economic indicators, and fiscal policies. </p>
