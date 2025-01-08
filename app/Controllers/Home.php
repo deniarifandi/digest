@@ -100,7 +100,36 @@ class Home extends BaseController
         return view('presentations.php',['subjects'=> $subjects,'presentations' => $presentations]);
     }
 
+    public function pedagogy(){
 
+        $query2 = $this->db->table('subjects')
+        ->select('subjects.subject_id,pedagogys.description, pedagogys.pedagogy_id, subjects.subject_name, pedagogys.file')
+        ->join('pedagogys','subjects.subject_id = pedagogys.subject_id','left')
+        ->where('subjects.deleted_at',null)
+        ->where('pedagogys.deleted_at',null)
+        ->get();
+
+        $pedagogys = $query2->getResult();
+
+        // print_r($subjects)
+        return view('pedagogy.php',['pedagogys' => $pedagogys]);
+    }
+
+
+     public function microcredential(){
+
+        $query2 = $this->db->table('subjects')
+        ->select('subjects.subject_id,microcredentials.description, microcredentials.microcredential_id, subjects.subject_name, microcredentials.file')
+        ->join('microcredentials','subjects.subject_id = microcredentials.subject_id','left')
+        ->where('subjects.deleted_at',null)
+        ->where('microcredentials.deleted_at',null)
+        ->get();
+
+        $microcredentials = $query2->getResult();
+
+        // print_r($subjects)
+        return view('microcredential.php',['microcredentials' => $microcredentials]);
+    }
 
 
 

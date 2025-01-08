@@ -26,7 +26,7 @@
               <div class="card-img">
                 <img src="<?php echo base_url();?>assets/img/pedagogy4.png" alt="" class="img-fluid">
               </div>
-              <h3><a href="#resources" class="stretched-link">Pedagogy</a></h3>
+              <h3><a href="<?php echo base_url(); ?>pedagogy" class="stretched-link">Pedagogy</a></h3>
               <p>This is the foundation element that guides the development and delivery of instructional content for English Instructional Material (EMI).</p>
             </div>
           </div><!-- End Card Item -->
@@ -36,7 +36,7 @@
               <div class="card-img">
                 <img src="<?php echo base_url();?>assets/img/microcredential2.png" alt="" class="img-fluid">
               </div>
-              <h3><a href="#resources" class="stretched-link">Microcredentials</a></h3>
+              <h3><a href="<?php echo base_url(); ?>microcredential" class="stretched-link">Microcredentials</a></h3>
               <p>Microcredentials Serve as a valuable tool for educators looking to enhance their expertise in teaching English</p>
             </div>
           </div><!-- End Card Item -->
