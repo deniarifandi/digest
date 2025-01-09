@@ -13,12 +13,60 @@ class Home extends BaseController
 
     public function index()
     {
+        $countStudents = $this->db->table('students')
+        ->where('deleted_at',null)
+        ->countAll();
+
+        $countTeachers = $this->db->table('teachers')
+        ->where('deleted_at',null)
+        ->countAll();
+
+        $countClasses = $this->db->table('classes')
+        ->where('deleted_at',null)
+        ->countAll();
+
+        $countSubjects = $this->db->table('subjects')
+        ->where('deleted_at',null)
+        ->countAllResults();
+
+        $countPedagogys = $this->db->table('pedagogys')
+        ->where('deleted_at',null)
+        ->countAll();
+
+        $countMicrocredentials = $this->db->table('microcredentials')
+        ->where('deleted_at',null)
+        ->countAll();
+
+        $countLessonPlans = $this->db->table('lesson_plans')
+        ->where('deleted_at',null)
+        ->countAll();
+
+        $countCases = $this->db->table('cases')
+        ->where('deleted_at',null)
+        ->countAll();
+
+         $countPresentations = $this->db->table('presentations')
+        ->where('deleted_at',null)
+        ->countAll();
+
+        $data = [
+            'students' => $countStudents,
+            'teachers' => $countTeachers,
+            'classes' => $countClasses,
+            'subjects' => $countSubjects,
+            'pedagogys' => $countPedagogys,
+            'microcredentials' => $countMicrocredentials,
+            'lessonPlans' => $countLessonPlans,
+            'cases' => $countCases,
+            'presentations' => $countPresentations,
+        ];
+
         $query = $this->db->table('subjects')
         ->where('deleted_at',null)
         ->get();
 
         $subjects = $query->getResult();
-        return view('index.php',['subjects' => $subjects]);
+        return view('index.php',['subjects' => $subjects,'data'=>$data]);
     }
 
     public function material($subject_id){

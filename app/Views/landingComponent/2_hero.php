@@ -18,29 +18,32 @@
 
               <div class="col-lg-3 col-6">
                 <div class="stats-item text-center w-100 h-100">
-                  <span data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="2" class="purecounter">4</span>
+                  <span data-purecounter-start="0" data-purecounter-end="<?= $data['subjects']?>" data-purecounter-duration="2" class="purecounter">
+                    <?= $data['subjects']?>
+                      
+                    </span>
                   <p>Subject</p>
                 </div>
               </div><!-- End Stats Item -->
 
               <div class="col-lg-3 col-6">
                 <div class="stats-item text-center w-100 h-100">
-                  <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="2" class="purecounter">10</span>
-                  <p>Programs</p>
+                  <span data-purecounter-start="0" data-purecounter-end=" <?= $data['teachers']?>" data-purecounter-duration="2" class="purecounter"> <?= $data['teachers']?></span>
+                  <p>Teachers</p>
                 </div>
               </div><!-- End Stats Item -->
 
               <div class="col-lg-3 col-6">
                 <div class="stats-item text-center w-100 h-100">
-                  <span data-purecounter-start="0" data-purecounter-end="121" data-purecounter-duration="2" class="purecounter">121</span>
-                  <p>Courses</p>
+                  <span data-purecounter-start="0" data-purecounter-end=" <?= $data['lessonPlans']?>" data-purecounter-duration="2" class="purecounter"> <?= $data['lessonPlans']?></span>
+                  <p>Lesson Plans</p>
                 </div>
               </div><!-- End Stats Item -->
 
               <div class="col-lg-3 col-6">
                 <div class="stats-item text-center w-100 h-100">
-                  <span data-purecounter-start="0" data-purecounter-end="300" data-purecounter-duration="2" class="purecounter">300</span>
-                  <p>Users</p>
+                  <span data-purecounter-start="0" data-purecounter-end=" <?= $data['students']?>" data-purecounter-duration="2" class="purecounter"> <?= $data['students']?></span>
+                  <p>Students Enrolled</p>
                 </div>
               </div><!-- End Stats Item -->
 
