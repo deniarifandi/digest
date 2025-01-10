@@ -16,7 +16,7 @@
               <div class="card">
                 <div class="card-img">
 
-                  <img src="<?php echo "http://localhost/mms/public/subjects/view/".$subject->image; ?>" alt="" class="img-fluid">
+                  <img src="<?php echo "https://digestadmin.sinarumi.co.id/subjects/view/".$subject->image; ?>" alt="" class="img-fluid">
                 </div>
                 <h3><a href="<?= base_url() ?>material/<?= $subject->subject_id ?>" class="stretched-link"><?= $subject->subject_name ?></a></h3>
                 <p><?= $subject->description ?></p>

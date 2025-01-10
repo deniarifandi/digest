@@ -51,7 +51,7 @@
                      <td><?= $microcredential->subject_name ?></th>
                      <td>
                         <?php if ($microcredential->file != null): ?>
-                           <a href="<?php echo "http://localhost/mms/public/microcredentials/view/".$microcredential->file ?>" alt="" class="img-fluid">Download
+                           <a href="<?php echo "https://digestadmin.sinarumi.co.id/microcredentials/view/".$microcredential->file ?>" alt="" class="img-fluid">Download
                            </a>   
                         <?php else: ?>
                            No File

@@ -56,7 +56,7 @@
                      <td><?= $lesson_plan->subject_name ?></th>
                      <td>
                         <?php if ($lesson_plan->file != null): ?>
-                           <a href="<?php echo "http://localhost/mms/public/lesson-plans/view/".$lesson_plan->subject_id."/".$lesson_plan->file ?>" alt="" class="img-fluid">Download
+                           <a href="<?php echo "https://digestadmin.sinarumi.co.id/lesson-plans/view/".$lesson_plan->subject_id."/".$lesson_plan->file ?>" alt="" class="img-fluid">Download
                            </a>   
                         <?php else: ?>
                            No File
