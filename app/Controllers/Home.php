@@ -179,6 +179,12 @@ class Home extends BaseController
         return view('microcredential.php',['microcredentials' => $microcredentials]);
     }
 
+    public function streaming(){
+
+        return view("streaming.php");
+
+    }
+
 
 
 }

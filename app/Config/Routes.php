@@ -14,4 +14,6 @@ $routes->get('/presentation/(:num)', 'Home::presentation/$1');
 
 $routes->get('/pedagogy', 'Home::pedagogy');
 
+$routes->get('/streaming', 'Home::streaming');
+
 $routes->get('/microcredential', 'Home::microcredential');
