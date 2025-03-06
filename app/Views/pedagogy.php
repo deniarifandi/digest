@@ -4,12 +4,12 @@
 
    <section id="hero" class="hero section dark-background" style="">
 
-      <img src="<?php echo base_url();?>assets/img/economybg.jpg" alt="" class="hero-bg" data-aos="fade-in">
+      <img src="<?php echo base_url();?>assets/img/videosbg.jpg" alt="" class="hero-bg" data-aos="fade-in">
 
       <div class="container">
         <div class="row gy-4 d-flex justify-content-center">
           <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
-            <h2 data-aos="fade-up">Pedagogy</h2>
+            <h2 data-aos="fade-up">Emi Videos</h2>
           </div>
           <div class="col-lg-5 order-1 order-lg-2 hero-img" data-aos="zoom-out">
             <!-- <img src="<?php echo base_url();?>assets/img/heroicon.png" class="img-fluid mb-3 mb-lg-0" alt=""> -->
@@ -24,9 +24,9 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <span>Pedagogy<br></span>
-        <h2>Pedagogy</h2>
-        <p>Check out our wide range of Pedagogy to help with your studies.</p>
+        <span>EMI Videos<br></span>
+        <h2>EMI Videos</h2>
+        <p>Check out our wide range of EMI Videos to help with your studies.</p>
       </div><!-- End Section Title -->
 
       <div class="container">

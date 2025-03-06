@@ -26,8 +26,8 @@
               <div class="card-img">
                 <img src="<?php echo base_url();?>assets/img/pedagogy4.png" alt="" class="img-fluid">
               </div>
-              <h3><a href="<?php echo base_url(); ?>pedagogy" class="stretched-link">Pedagogy</a></h3>
-              <p>This is the foundation element that guides the development and delivery of instructional content for English Instructional Material (EMI).</p>
+              <h3><a href="<?php echo base_url(); ?>pedagogy" class="stretched-link">EMI Videos</a></h3>
+              <p>EMI Videos provide practical strategies and best practices for teaching in English-Medium Instruction (EMI) classrooms. These digital resources help lecturers deliver subject content effectively in English, enhancing student engagement and comprehension.</p>
             </div>
           </div><!-- End Card Item -->
 
