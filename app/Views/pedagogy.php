@@ -39,7 +39,7 @@
                   <th>No</th>
                   <th>Cases Desc</th>
                   <th>Subject</th>
-                  <th>Download</th>
+                  <th>View</th>
                </tr>
             </thead>
             <tbody>
@@ -51,7 +51,7 @@
                      <td><?= $pedagogy->subject_name ?></th>
                      <td>
                         <?php if ($pedagogy->file != null): ?>
-                           <a href="<?php echo base_url()."streaming?video=".$pedagogy->file ?>" alt="" class="img-fluid">Download
+                           <a href="<?php echo base_url()."streaming?video=".$pedagogy->file ?>" alt="" class="img-fluid">View
                            </a>   
                         <?php else: ?>
                            No File
