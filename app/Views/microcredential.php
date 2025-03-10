@@ -9,7 +9,7 @@
       <div class="container">
         <div class="row gy-4 d-flex justify-content-center">
           <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
-            <h2 data-aos="fade-up">Microcredential</h2>
+            <h2 data-aos="fade-up">Frequently Asked Question</h2>
           </div>
           <div class="col-lg-5 order-1 order-lg-2 hero-img" data-aos="zoom-out">
             <!-- <img src="<?php echo base_url();?>assets/img/heroicon.png" class="img-fluid mb-3 mb-lg-0" alt=""> -->
@@ -24,9 +24,9 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <span>Microcredential<br></span>
-        <h2>Microcredential</h2>
-        <p>Check out our wide range of Microcredential to help with your studies.</p>
+        <span>Frequently Asked Question<br></span>
+        <h2>Frequently Asked Question</h2>
+        <p>Find answers to common questions quickly.</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -37,27 +37,20 @@
             <thead>
                <tr>
                   <th>No</th>
-                  <th>Microcredential Desc</th>
-                  <th>Subject</th>
-                  <th>Download</th>
+                  <th>Question</th>
+                  <th>Answer</th>
                </tr>
             </thead>
             <tbody>
 
-               <?php foreach ($microcredentials as $microcredential): ?>
+               <?php
+               $i = 0;
+                foreach ($microcredentials as $microcredential): ?>
+
                   <tr>
-                     <td><?= $microcredential->microcredential_id ?></th>
+                     <td><?= ++$i ?></th>
+                     <td><?= $microcredential->microcredential ?></th>
                      <td><?= $microcredential->description ?></th>
-                     <td><?= $microcredential->subject_name ?></th>
-                     <td>
-                        <?php if ($microcredential->file != null): ?>
-                           <a href="<?php echo "https://digestadmin.sinarumi.co.id/microcredentials/view/".$microcredential->file ?>" alt="" class="img-fluid">Download
-                           </a>   
-                        <?php else: ?>
-                           No File
-                        <?php endif ?>
-                        
-                     </th>
                   </tr>   
                <?php endforeach ?>
                

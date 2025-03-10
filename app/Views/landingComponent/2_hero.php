@@ -1,6 +1,6 @@
  <section id="hero" class="hero section dark-background" style="height: 100vh;">
 
-      <img src="<?php echo base_url();?>assets/img/bg1.jpg" alt="" class="hero-bg" data-aos="fade-in">
+      <img src="<?php echo base_url();?>assets/img/flagbg.jpg" alt="" class="hero-bg" data-aos="fade-in">
 
       <div class="container">
         <div class="row gy-4 d-flex justify-content-center">

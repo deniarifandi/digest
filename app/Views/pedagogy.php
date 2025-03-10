@@ -51,7 +51,7 @@
                      <td><?= $pedagogy->subject_name ?></th>
                      <td>
                         <?php if ($pedagogy->file != null): ?>
-                           <a href="<?php echo "https://digestadmin.sinarumi.co.id/pedagogys/view/".$pedagogy->file ?>" alt="" class="img-fluid">Download
+                           <a href="<?php echo "https://digestadmin.sinarumi.co.id/streaming?video=".$pedagogy->file ?>" alt="" class="img-fluid">Download
                            </a>   
                         <?php else: ?>
                            No File

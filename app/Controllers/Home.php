@@ -166,10 +166,8 @@ class Home extends BaseController
 
      public function microcredential(){
 
-        $query2 = $this->db->table('subjects')
-        ->select('subjects.subject_id,microcredentials.description, microcredentials.microcredential_id, subjects.subject_name, microcredentials.file')
-        ->join('microcredentials','subjects.subject_id = microcredentials.subject_id','left')
-        ->where('subjects.deleted_at',null)
+        $query2 = $this->db->table('microcredentials')
+        ->select('microcredentials.*')
         ->where('microcredentials.deleted_at',null)
         ->get();
 
