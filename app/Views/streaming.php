@@ -1,14 +1,26 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Video Player</title>
-</head>
-<body>
+   
+    <?php include('landingComponent/1_header.php');?>
+  <main class="main">
 
-<video width="640" height="360" controls>
-    <source src="<?php echo base_url();?>assets/video/test.mp4.txt" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
+  <section id="hero" class="hero section dark-background" style="">
 
-</body>
-</html>
+      <div class="container">
+        <div class="row gy-4 d-flex justify-content-center">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
+            <video width="640" height="360" controls>
+                <source src="http://digestadmin.sinarumi.co.id/public/assets/video/1741558151_f806e5630f5aef632782.mp4.txt" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="col-lg-5 order-1 order-lg-2 hero-img" data-aos="zoom-out">
+            <!-- <img src="<?php echo base_url();?>assets/img/heroicon.png" class="img-fluid mb-3 mb-lg-0" alt=""> -->
+          </div>
+
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+  </main>
+
+<?php include('landingComponent/footer.php');?>
