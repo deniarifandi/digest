@@ -42,6 +42,16 @@
             </div>
           </div><!-- End Card Item -->
 
+           <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="card">
+              <div class="card-img">
+                <img src="<?php echo base_url();?>assets/img/aboutus.png" alt="" class="img-fluid">
+              </div>
+              <h3><a href="<?= base_url() ?>pedagogy/<?= $subjects[0]->subject_id ?>" class="stretched-link" class="stretched-link">EMI Videos</a></h3>
+              <p>EMI Videos provide practical strategies and best practices for teaching in English-Medium Instruction (EMI) classrooms.</p>
+            </div>
+          </div><!-- End Card Item -->
+
           
 
           

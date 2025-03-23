@@ -148,6 +148,27 @@ class Home extends BaseController
         return view('presentations.php',['subjects'=> $subjects,'presentations' => $presentations]);
     }
 
+    public function assessment(){
+
+        $query1 = $this->db->table('subjects')
+        ->select('*')
+        ->where('subjects.deleted_at',null)
+        ->get();
+
+        $query2 = $this->db->table('subjects')
+        ->select('subjects.subject_id,assessments.assessment,assessments.description, assessments.assessment_id, subjects.subject_name, assessments.file')
+        ->join('assessments','subjects.subject_id = assessments.subject_id','left')
+        ->where('subjects.deleted_at',null)
+        ->where('assessments.deleted_at',null)
+        ->get();
+
+        $subjects = $query1->getResult();
+        $assessments = $query2->getResult();
+
+        // echo json_encode($assessments);
+        return view('assessment.php',['assessments' => $assessments,'subjects' => $subjects]);
+    }
+
     public function pedagogy(){
 
         $query2 = $this->db->table('subjects')
@@ -155,6 +176,22 @@ class Home extends BaseController
         ->join('pedagogys','subjects.subject_id = pedagogys.subject_id','left')
         ->where('subjects.deleted_at',null)
         ->where('pedagogys.deleted_at',null)
+        ->get();
+
+        $pedagogys = $query2->getResult();
+
+        // print_r($subjects)
+        return view('pedagogy.php',['pedagogys' => $pedagogys]);
+    }
+
+    public function pedagogy_sub($id_subject){
+
+        $query2 = $this->db->table('subjects')
+        ->select('subjects.subject_id,pedagogys.description, pedagogys.pedagogy_id, subjects.subject_name, pedagogys.file')
+        ->join('pedagogys','subjects.subject_id = pedagogys.subject_id','left')
+        ->where('subjects.deleted_at',null)
+        ->where('pedagogys.deleted_at',null)
+        ->where('subjects.subject_id',$id_subject)
         ->get();
 
         $pedagogys = $query2->getResult();

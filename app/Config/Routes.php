@@ -13,7 +13,10 @@ $routes->get('/case_study/(:num)', 'Home::case_study/$1');
 $routes->get('/presentation/(:num)', 'Home::presentation/$1');
 
 $routes->get('/pedagogy', 'Home::pedagogy');
+$routes->get('/pedagogy/(:num)', 'Home::pedagogy_sub/$1');
 
 $routes->get('/streaming', 'Home::streaming');
 
 $routes->get('/microcredential', 'Home::microcredential');
+
+$routes->get('/assessment', 'Home::assessment');

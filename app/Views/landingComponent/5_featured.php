@@ -1,3 +1,5 @@
+
+
 <section id="resources" class="services section">
 
       <!-- Section Title -->
@@ -11,7 +13,7 @@
 
         <div class="row gy-4">
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="card">
               <div class="card-img">
                 <img src="<?php echo base_url();?>assets/img/subject2.png" alt="" class="img-fluid">
@@ -21,7 +23,7 @@
             </div>
           </div><!-- End Card Item -->
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="card">
               <div class="card-img">
                 <img src="<?php echo base_url();?>assets/img/pedagogy4.png" alt="" class="img-fluid">
@@ -31,7 +33,17 @@
             </div>
           </div><!-- End Card Item -->
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="card">
+              <div class="card-img">
+                <img src="<?php echo base_url();?>assets/img/rubric.jpg" alt="" class="img-fluid">
+              </div>
+              <h3><a href="<?php echo base_url(); ?>assessment" class="stretched-link">Assessments</a></h3>
+              <p> Here, you will find assessment files, including rubrics, chapter tests, and grading criteria, designed to measure student understanding and skills..</p>
+            </div>
+          </div><!-- End Card Item -->
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="card">
               <div class="card-img">
                 <img src="<?php echo base_url();?>assets/img/microcredential2.png" alt="" class="img-fluid">

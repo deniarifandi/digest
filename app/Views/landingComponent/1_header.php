@@ -37,6 +37,15 @@
   ======================================================== -->
 </head>
 
+<style type="text/css">
+  .card-img img {
+    width: 100%; /* Ensures image fills the container */
+    height: 200px; /* Set a fixed height */
+    object-fit: cover; /* Crops the image to fit without distortion */
+    display: block;
+}
+</style>
+
 <body class="index-page">
 
   <header id="header" class="header d-flex align-items-center fixed-top">
@@ -53,7 +62,7 @@
           <li><a href="<?php echo base_url(); ?>#hero" class="active">Home<br></a></li>
           <li><a href="<?php echo base_url(); ?>#about">About</a></li>
           <li><a href="<?php echo base_url(); ?>#resources">Resources</a></li>
-          <li><a href="<?php echo base_url(); ?>#category">Category</a></li>
+          <li><a href="<?php echo base_url(); ?>microcredential">FAQ</a></li>
          <!--  <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="#">Dropdown 1</a></li>
