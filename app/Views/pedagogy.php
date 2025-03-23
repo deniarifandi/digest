@@ -27,6 +27,7 @@
         <span>EMI Videos<br></span>
         <h2>EMI Videos</h2>
         <p>Check out our wide range of EMI Videos to help with your studies.</p>
+            
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -43,7 +44,14 @@
                </tr>
             </thead>
             <tbody>
-
+               <?php if ($pedagogys[0]->subject_id == 9): ?>
+                  <tr>
+                     <td>1</td>
+                     <td>GeoTechnical Engineering</td>
+                     <td><a href="https://drive.google.com/file/d/1ATgGdVuxAe5KQ_Wp4Bgy0SGWfTB-PPe4/view?usp=sharing" target="_blank">View</a></td>
+                  </tr>
+               <?php endif ?>
+                  
                <?php foreach ($pedagogys as $pedagogy): ?>
                   <tr>
                      <td><?= $pedagogy->pedagogy_id ?></th>
