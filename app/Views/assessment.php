@@ -41,7 +41,7 @@
                <tr>
                   <th>No</th>
                   <th>Cases Desc</th>
-                  <th>Subject</th>
+                  
                   <th>Download</th>
                </tr>
             </thead>
@@ -51,7 +51,7 @@
                   <tr>
                      <td><?= $assessment->assessment_id ?></th>
                      <td><?= $assessment->description ?></th>
-                     <td><?= $assessment->subject_name ?></th>
+                    
                      <td>
                         <?php if ($assessment->file != null): ?>
                            <a href="<?php echo "https://digestadmin.sinarumi.co.id/lesson-plans/view/".$assessment->subject_id."/".$assessment->file ?>" alt="" class="img-fluid">Download

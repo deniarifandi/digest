@@ -38,7 +38,7 @@
                <tr>
                   <th>No</th>
                   <th>Video Desc</th>
-                  <th>Subject</th>
+                  
                   <th>View</th>
                </tr>
             </thead>
@@ -48,7 +48,7 @@
                   <tr>
                      <td><?= $pedagogy->pedagogy_id ?></th>
                      <td><?= $pedagogy->description ?></th>
-                     <td><?= $pedagogy->subject_name ?></th>
+                     
                      <td>
                         <?php if ($pedagogy->file != null): ?>
                            <a href="<?php echo base_url()."streaming?video=".$pedagogy->file ?>" alt="" class="img-fluid">View

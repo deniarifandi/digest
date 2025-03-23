@@ -171,11 +171,10 @@ class Home extends BaseController
 
     public function pedagogy(){
 
-        $query2 = $this->db->table('subjects')
-        ->select('subjects.subject_id,pedagogys.description, pedagogys.pedagogy_id, subjects.subject_name, pedagogys.file')
-        ->join('pedagogys','subjects.subject_id = pedagogys.subject_id','left')
-        ->where('subjects.deleted_at',null)
+        $query2 = $this->db->table('pedagogys')
         ->where('pedagogys.deleted_at',null)
+        ->where('pedagogys.deleted_at',null)
+        ->where('pedagogys.subject_id',null)
         ->get();
 
         $pedagogys = $query2->getResult();
