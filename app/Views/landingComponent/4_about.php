@@ -16,6 +16,11 @@
             <p>
               Digital English Instructional Material (DIGEST) is a material packaged in a digital video displayed through an application containing pedagogical strategies and best practices for teaching EMI classes. This digital material can be accessed for free/no charge on Google Playstore for all lecturers, especially EMI class instructors. Through this digital video, lecturers will get material related to pedagogical strategies and best practices that can be applied in teaching EMI classes and examples of learning practices that can be used as practical learning models in EMI classes.
             </p>
+
+            EMI Team:<br>
+            Dr. Emy Sudarwati,S.S.,M.Pd<br>
+            Dr.Frida Unsiah, M.Pd<br>
+            Dr. Esti Junining, M.Pd<br>
             <!-- <ul>
               <li>
                 <i class="bi bi-diagram-3"></i>
