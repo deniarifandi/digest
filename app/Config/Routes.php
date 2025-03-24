@@ -20,3 +20,4 @@ $routes->get('/streaming', 'Home::streaming');
 $routes->get('/microcredential', 'Home::microcredential');
 
 $routes->get('/assessment', 'Home::assessment');
+$routes->get('/gallery', 'Home::gallery');

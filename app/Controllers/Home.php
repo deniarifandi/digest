@@ -219,6 +219,11 @@ class Home extends BaseController
 
     }
 
+    public function gallery(){
+
+        return view("gallery.php");
+
+    }
 
 
 }
