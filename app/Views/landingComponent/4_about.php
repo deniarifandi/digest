@@ -5,8 +5,10 @@
         <div class="row gy-4">
 
           <div class="col-lg-6 position-relative align-self-start order-lg-last order-first" data-aos="fade-up" data-aos-delay="200">
-            <img src="<?php echo base_url();?>assets/img/aboutus.png" class="img-fluid" alt="">
-            <!-- <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a> -->
+           <video width="640" height="360" controls autoplay muted>
+    <source src="http://digestadmin.sinarumi.co.id/assets/video/teaser" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
           </div>
 
           <div class="col-lg-6 content order-last  order-lg-first" data-aos="fade-up" data-aos-delay="100">
