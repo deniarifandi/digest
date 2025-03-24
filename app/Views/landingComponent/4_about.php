@@ -19,7 +19,7 @@
 
             EMI Team:<br>
             Dr. Emy Sudarwati,S.S.,M.Pd<br>
-            Dr.Frida Unsiah, M.Pd<br>
+            Dr. Frida Unsiah, M.Pd<br>
             Dr. Esti Junining, M.Pd<br>
             <!-- <ul>
               <li>
