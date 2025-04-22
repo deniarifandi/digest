@@ -225,5 +225,11 @@ class Home extends BaseController
 
     }
 
+    public function testimonial(){
+
+        return view("testimonial.php");
+
+    }
+
 
 }

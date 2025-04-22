@@ -44,6 +44,10 @@
     object-fit: cover; /* Crops the image to fit without distortion */
     display: block;
 }
+
+.hero{
+  min-height: 20vh !important;
+}
 </style>
 
 <body class="index-page">
@@ -64,6 +68,7 @@
           <li><a href="<?php echo base_url(); ?>#resources">Resources</a></li>
           <li><a href="<?php echo base_url(); ?>gallery">EMI Photos</a></li>
           <li><a href="<?php echo base_url(); ?>microcredential">FAQ</a></li>
+          <li><a href="<?php echo base_url(); ?>testimonial">Testimonial</a></li>
          <!--  <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="#">Dropdown 1</a></li>

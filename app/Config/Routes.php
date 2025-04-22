@@ -21,3 +21,5 @@ $routes->get('/microcredential', 'Home::microcredential');
 
 $routes->get('/assessment', 'Home::assessment');
 $routes->get('/gallery', 'Home::gallery');
+
+$routes->get('/testimonial', 'Home::testimonial');

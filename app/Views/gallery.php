@@ -2,7 +2,7 @@
 
     <main class="main">
 
-   <section id="hero" class="hero section dark-background" style="">
+   <section id="hero" class="hero section dark-background" style="min-height: 20vh;">
 
       <img src="<?php echo base_url();?>assets/img/videosbg.jpg" alt="" class="hero-bg" data-aos="fade-in">
 
@@ -71,6 +71,57 @@
             </div>
         </div>
     </div>
+
+    <div class="row">
+        <!-- Gallery Item -->
+        <div class="col-md-3 mb-3">
+            <div class="card">
+                <img src="<?php echo base_url() ?>assets/img/april1.jpeg" class="card-img-top" data-toggle="modal" data-target="#imageModal1" alt="Gallery Image">
+            </div>
+        </div>
+        <div class="col-md-3 mb-3">
+            <div class="card">
+                <img src="<?php echo base_url() ?>assets/img/april2.jpeg" class="card-img-top" data-toggle="modal" data-target="#imageModal1" alt="Gallery Image">
+            </div>
+        </div>
+        <div class="col-md-3 mb-3">
+            <div class="card">
+                <img src="<?php echo base_url() ?>assets/img/april3.jpeg" class="card-img-top" data-toggle="modal" data-target="#imageModal1" alt="Gallery Image">
+            </div>
+        </div>
+
+         <div class="col-md-3 mb-3">
+            <div class="card">
+                <img src="<?php echo base_url() ?>assets/img/april3.jpeg" class="card-img-top" data-toggle="modal" data-target="#imageModal1" alt="Gallery Image">
+            </div>
+        </div>
+    </div>
+
+      <div class="row">
+        <!-- Gallery Item -->
+        <div class="col-md-3 mb-3">
+            <div class="card">
+                <img src="<?php echo base_url() ?>assets/img/april5.jpeg" class="card-img-top" data-toggle="modal" data-target="#imageModal1" alt="Gallery Image">
+            </div>
+        </div>
+        <div class="col-md-3 mb-3">
+            <div class="card">
+                <img src="<?php echo base_url() ?>assets/img/april6.jpeg" class="card-img-top" data-toggle="modal" data-target="#imageModal1" alt="Gallery Image">
+            </div>
+        </div>
+        <div class="col-md-3 mb-3">
+            <div class="card">
+                <img src="<?php echo base_url() ?>assets/img/april7.jpeg" class="card-img-top" data-toggle="modal" data-target="#imageModal1" alt="Gallery Image">
+            </div>
+        </div>
+
+         <div class="col-md-3 mb-3">
+            <div class="card">
+                <img src="<?php echo base_url() ?>assets/img/april8.jpeg" class="card-img-top" data-toggle="modal" data-target="#imageModal1" alt="Gallery Image">
+            </div>
+        </div>
+    </div>
+
     </section>
 
     <?php include('landingComponent/footer.php');?>
