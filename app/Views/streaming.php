@@ -8,7 +8,7 @@
         <div class="row gy-4 d-flex justify-content-center">
           <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
             <video width="640" height="360" controls>
-                <source src="http://digestadmin.sinarumi.co.id/assets/video/<?php echo $_GET['video']; ?>" type="video/mp4">
+                <source src="https://digestadmin.sinarumi.co.id/assets/video/<?php echo $_GET['video']; ?>" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
           </div>
