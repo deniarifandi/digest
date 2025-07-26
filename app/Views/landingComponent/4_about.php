@@ -5,10 +5,7 @@
         <div class="row gy-4">
 
           <div class="col-lg-6 position-relative align-self-start order-lg-last order-first" data-aos="fade-up" data-aos-delay="200">
-           <video width="640" height="360" controls autoplay muted>
-    <source src="https://digestadmin.sinarumi.co.id/assets/video/teaser" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
+           <iframe src="https://drive.google.com/file/d/16De7-7I330jtOIkM4ikyyjkdEPrjThXT/preview" width="640" height="360" allow="autoplay"></iframe>
           </div>
 
           <div class="col-lg-6 content order-last  order-lg-first" data-aos="fade-up" data-aos-delay="100">
