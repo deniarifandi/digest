@@ -173,7 +173,6 @@ class Home extends BaseController
 
         $query2 = $this->db->table('pedagogys')
         ->where('pedagogys.deleted_at',null)
-        ->where('pedagogys.deleted_at',null)
         ->where('pedagogys.subject_id',null)
         ->get();
 
